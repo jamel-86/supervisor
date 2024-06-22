@@ -5,7 +5,7 @@ contact_links:
     about: The Community guide can help or was updated to solve your issue
 
   - name: Report a bug for the Supervisor panel
-    url: https://github.com/home-assistant/frontend/issues
+    url: https://github.com/jamel-86/edash-frontend/issues
     about: The Supervisor panel is a part of the Home Assistant frontend
 
   - name: Report incorrect or missing information on our developer documentation
