@@ -13,7 +13,8 @@ script/bootstrap
 
 # Download translations
 start_docker
-./script/translations_download
+# ./script/translations_download
+./script/setup_translations
 
 # build frontend
 cd hassio
