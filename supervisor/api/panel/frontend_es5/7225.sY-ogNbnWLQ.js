@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkedashboard_frontend=self.webpackChunkedashboard_frontend||[]).push([[7225],{57225:function(e,n,s){s.r(n)}}]);

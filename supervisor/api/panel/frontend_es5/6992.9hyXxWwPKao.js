@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkedashboard_frontend=self.webpackChunkedashboard_frontend||[]).push([[6992],{56992:function(e,n,a){a.r(n);var d=a(28681);d.Ay.mount(d.iV,new d.ZZ),n.default=d.Ay}}]);
+//# sourceMappingURL=6992.9hyXxWwPKao.js.map
