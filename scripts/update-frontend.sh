@@ -7,7 +7,7 @@ set -e
 git submodule update --init --recursive --remote
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-cd home-assistant-polymer
+cd edash-frontend
 nvm install
 script/bootstrap
 

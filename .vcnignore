@@ -14,7 +14,7 @@ __pycache__/
 .tox
 
 # Data
-home-assistant-polymer/
+edash-frontend/
 script/
 tests/
 data/
