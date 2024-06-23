@@ -1,32 +1,21 @@
-# Home Assistant Supervisor
-
-## First private cloud solution for home automation
-
-Home Assistant (former Hass.io) is a container-based system for managing your
-Home Assistant Core installation and related applications. The system is
-controlled via Home Assistant which communicates with the Supervisor. The
-Supervisor provides an API to manage the installation. This includes changing
-network settings or installing and updating software.
+# eDashboard Supervisor
 
 ## Installation
 
-Installation instructions can be found at https://home-assistant.io/getting-started.
+Open the repo with a Dev Container inside VSCode. a uri link can be used as below:
+vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https%3A%2F%2Fgithub.com%2Fjamel-86%2Fsupervisor.git
 
 ## Development
 
-For small changes and bugfixes you can just follow this, but for significant changes open a RFC first.
-Development instructions can be found [here][development].
+Before running the supervisor, please update the supervisor panel:
 
-## Release
+Press F1 and Search for "Run Task"
+Select "Update Supervisor Panel"
 
-Releases are done in 3 stages (channels) with this structure:
+When the panel is updated you can Run the task:
 
-1. Pull requests are merged to the `main` branch.
-2. A new build is pushed to the `dev` stage.
-3. Releases are published.
-4. A new build is pushed to the `beta` stage.
-5. The [`stable.json`][stable] file is updated.
-6. The build that was pushed to `beta` will now be pushed to `stable`.
+"Run Supervisor"
 
-[development]: https://developers.home-assistant.io/docs/supervisor/development
-[stable]: https://github.com/home-assistant/version/blob/master/stable.json
+## Access the Supervisor
+
+http://IP-OF-HOST:9123
