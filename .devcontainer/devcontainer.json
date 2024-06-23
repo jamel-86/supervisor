@@ -36,5 +36,9 @@
       }
     }
   },
-  "mounts": ["type=volume,target=/var/lib/docker"]
+  "mounts": [
+    "type=volume,target=/var/lib/docker",
+    "source=/home/jamel/Documents/coding/hass/core,target=/workspace/core,type=bind",
+    "source=/home/jamel/Documents/coding/hass/edash-frontend,target=/workspace/edash-frontend,type=bind"
+  ]
 }
