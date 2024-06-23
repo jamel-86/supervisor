@@ -3,6 +3,7 @@
 ## Installation
 
 Open the repo with a Dev Container inside VSCode. a uri link can be used as below:
+
 vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https%3A%2F%2Fgithub.com%2Fjamel-86%2Fsupervisor.git
 
 ## Development
